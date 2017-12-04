@@ -1,6 +1,6 @@
 
 html {
-  font-family: sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -10,6 +10,10 @@ header .content {
   display: flex;
   align-items: center;
   height: 64px;
+}
+
+header .content span strong {
+  font-weight: bold;
 }
 
 header img {
@@ -36,12 +40,13 @@ nav li {
 
 .banner {
   display: flex;
+  background-color: lightgray;
 }
 
 .image-container {
   display: flex;
   width: 60%;
-  height: 60%;
+  height: 50%;
 }
 
 .banner img {
@@ -49,13 +54,49 @@ nav li {
   max-height: 100%;
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-
 .banner-text{
-  flex-grow: 1;
+  display: flex;
 }
 
 .banner-text h1 {
-  font-size: 42px;
+  font-size: 36px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.banner-text p {
+  font-size: 20px;
+}
+
+/* Second Section */
+
+.second-section {
+  display: flex;
+}
+
+.artimg-container {
+  display: flex;
+  width: 60%;
+}
+
+.artimg-container img {
+  max-width: 100%;
+  padding: 32px 24px 32px 24px;
+}
+
+.article-content h1 {
+  font-size: 32px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  font-weight: bold;
+}
+
+.article-content p {
+  padding-left: 24px;
+  width: 60%;
+  padding-bottom: 32px;
 }
