@@ -12,12 +12,16 @@ header .content {
   height: 64px;
 }
 
+header .content span {
+  font-size: 24px;
+}
+
 header .content span strong {
   font-weight: bold;
 }
 
 header img {
-  height: 32px;
+  height: 44px;
   padding-left: 24px;
 }
 
@@ -129,15 +133,13 @@ header .mobile {
   width: 100%;
 }
 
-.artimg-container {
-  display: flex;
-  width: 60%;
-  height: auto;
-}
-
-.artimg-container img {
+.second-section img {
   max-width: 100%;
-  padding: 32px 24px 32px 24px;
+  height: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .article-content h1 {
