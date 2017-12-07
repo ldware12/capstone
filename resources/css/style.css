@@ -68,9 +68,14 @@ header .mobile {
   background-color: lightgray;
 }
 
-.image-container {
-  display: flex;
+.column1 {
   width: 60%;
+  flex-shrink: 1;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
 }
 
 .banner img {
@@ -82,19 +87,30 @@ header .mobile {
   padding-bottom: 32px;
 }
 
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%:
+  flex-shrink: 2;
+  align-content: center;
+}
+
 .banner-text{
   display: block;
-  margin: auto;
+  padding-left: 34px;
+  padding-top: 300px;
 }
 
 .banner-text h1 {
   font-size: 36px;
   font-weight: bold;
-
+  width: 60%;
 }
 
 .banner-text p {
   font-size: 20px;
+  width: 60%;
+  padding: 20px 0px;
 }
 
 .button {
@@ -103,7 +119,7 @@ header .mobile {
   color: white;
   text-align: center;
   padding: 8px 0px;
-
+  width: 60%;
 }
 
 /* Second Section */
