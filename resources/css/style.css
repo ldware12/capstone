@@ -120,17 +120,23 @@ header .mobile {
 .button {
   background-color: #454947;
   border: none;
-  color: white;
   text-align: center;
-  padding: 8px 0px;
+  padding: 10px 0px;
   width: 60%;
+}
+
+.button a {
+  color: white;
 }
 
 /* Second Section */
 
+/* Left Column */
+
 .second-section {
   display: flex;
   width: 100%;
+  padding-bottom: 40px;
 }
 
 .second-section img {
@@ -153,4 +159,117 @@ header .mobile {
   padding-left: 24px;
   width: 60%;
   padding-bottom: 32px;
+}
+
+/* Right Column */
+
+.second-section .column2 {
+  display: flex;
+  width: 40%;
+}
+
+.quicklink1 {
+  display: flex;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding-bottom: -8px;
+}
+
+.quicklink1 .information1 {
+  padding-top: 126px;
+  padding-left: 50px;
+}
+
+.information1 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #454947;
+}
+
+.information1 p {
+  padding: 10px 0px;
+}
+
+.information1 a {
+  color: blue;
+}
+
+.quicklink2 {
+  display: flex;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+}
+
+.quicklink2 .information2 {
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+.information2 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #454947;
+  padding-top: 40px;
+}
+
+.information2 p {
+  padding: 10px 0px;
+}
+
+.information2 a {
+  color: blue;
+}
+
+.quicklink3 {
+  display: flex;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  background-color: lightgray;
+}
+
+.quicklink-image-container {
+  display: flex;
+  width: 35%;
+}
+
+.quicklink3 .information3 {
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+.information3 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #454947;
+  padding-top: 40px;
+}
+
+.information3 p {
+  padding: 10px 0px;
+}
+
+.information3 a {
+  color: blue;
+}
+
+
+/* Start Learning Section */
+
+.start-learining {
+  display: flex;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 44px;
+
 }
