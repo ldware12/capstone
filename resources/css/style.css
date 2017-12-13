@@ -100,6 +100,7 @@ header .mobile {
 .banner-text p {
   font-size: 20px;
   padding: 20px 0px;
+  width: 80%;
 }
 
 .button {
@@ -107,6 +108,7 @@ header .mobile {
   border: none;
   text-align: center;
   padding: 10px 0px;
+  width: 60%;
 }
 
 .button a {
@@ -181,7 +183,9 @@ header .mobile {
 }
 
 .quicklink1 .information {
+  width: 60%;
   margin: auto;
+  padding-left: 16px;
 }
 
 .information h3 {
@@ -205,7 +209,9 @@ header .mobile {
 }
 
 .quicklink2 .information {
+  width: 60%;
   margin: auto;
+  padding-left: 16px;
 }
 
 .quicklink3 {
@@ -215,8 +221,24 @@ header .mobile {
   background-color: lightgray;
 }
 
-.quicklink3 .information {
+.quicklink3 .information3 {
+  width: 60%;
   margin: auto;
+  padding-left: 16px;
+}
+
+.information3 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #454947;
+}
+
+.information3 p {
+  padding: 10px 0px;
+}
+
+.information3 a {
+  color: blue;
 }
 
 /* Start Learning Section */
@@ -234,12 +256,20 @@ header .mobile {
 
 .courses-container {
   background-color: lightgray;
-  display: block;
+  width: 100%;
 }
 
 .courses-top {
   display: flex;
   justify-content: center;
+  padding: 0px 64px;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 15px;
 }
 
 .course img {
@@ -249,15 +279,7 @@ header .mobile {
 .courses-bottom {
   display: flex;
   justify-content: center;
-  padding-bottom: 16px;
-}
-
-.course {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  margin: 15px;
-  padding: 0px 25px;
+  padding: 0px 64px 16px 64px;
 }
 
 .course-info {
