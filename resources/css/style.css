@@ -131,16 +131,21 @@ header .mobile {
 
 /* Second Section */
 
-/* Left Column */
-
 .second-section {
   display: flex;
   width: 100%;
-  padding-bottom: 40px;
 }
 
-.second-section img {
-  max-width: 100%;
+/* Left Column */
+
+.column-left {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.image-container img {
+  width: 100%;
   height: auto;
   padding-left: 24px;
   padding-right: 24px;
@@ -163,9 +168,12 @@ header .mobile {
 
 /* Right Column */
 
-.second-section .column2 {
+.column-right {
   display: flex;
   width: 40%;
+  height: auto;
+  flex-direction: column;
+  border-left: thin solid lightgray;
 }
 
 .quicklink1 {
@@ -174,6 +182,19 @@ header .mobile {
   border-color: lightgray;
   border-width: thin;
   padding-bottom: -8px;
+}
+
+.quicklink1-image-container {
+  width: 40%;
+}
+
+.quicklink1-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.quicklink1 .quicklink-image-mobile {
+  display: none;
 }
 
 .quicklink1 .information1 {
@@ -258,22 +279,14 @@ header .mobile {
 
 /* Start Learning Section */
 
-.start-learining {
+.start-learning {
   display: flex;
   width: 100%;
-}
-
-.title {
-  display: flex;
-  text-align: center;
+  justify-content: center;
   background-color: lightgray;
   padding: 40px 0px 20px 0px;
-}
-
-.title h1 {
   font-size: 44px;
   color: #454947;
-  margin: auto;
   font-weight: bold;
 }
 
@@ -285,13 +298,6 @@ header .mobile {
 .courses-top {
   display: flex;
   justify-content: center;
-}
-
-.course {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  padding: 0px 25px;
 }
 
 .course img {
@@ -309,6 +315,7 @@ header .mobile {
   flex-direction: column;
   width: 25%;
   margin: 15px;
+  padding: 0px 25px;
 }
 
 .course-info {
@@ -337,27 +344,24 @@ header .mobile {
 .thesis-exhibit {
   display: flex;
   width: 100%;
-}
-
-.title {
-  display: flex;
+  justify-content: center;
   background-color: white;
-  text-align: center;
-  padding: 40px 0px 20px 0px;
-}
-
-.title h1 {
+  padding: 40px 0px;
   font-size: 44px;
   color: #454947;
   font-weight: bold;
-  margin: auto;
 }
 
-.video-container {
+.column-video {
   display: flex;
   width: 60%;
+  padding-left: 24px;
 }
 
 .video-container video {
   max-width: 100%;
+}
+
+.video-content {
+  ;
 }
