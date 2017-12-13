@@ -409,3 +409,28 @@ header .mobile {
 .now-and-then p {
   padding: 10px 0px;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  width: auto;
+  height: 64px;
+  border-top: thin solid lightgray;
+  padding: 32px 0px 0px 16px;
+  justify-content: space-between;
+  color: lightgray;
+}
+
+.copyright {
+  display: block;
+}
+
+.list ul {
+  display: flex;
+}
+
+.list ul li {
+  justify-content: flex-end;
+  padding: 0px 16px;
+}
