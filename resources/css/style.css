@@ -415,7 +415,7 @@ header .mobile {
 footer {
   display: flex;
   width: auto;
-  height: 64px;
+  height: 54px;
   border-top: thin solid lightgray;
   padding: 32px 0px 0px 16px;
   justify-content: space-between;
