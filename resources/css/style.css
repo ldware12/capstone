@@ -281,6 +281,54 @@ header .mobile {
   color: blue;
 }
 
+@media only screen and (max-width: 550px) {
+  .second-section .column-right {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0px;
+  }
+
+  .quicklink1 {
+    display: block;
+    border: none;
+  }
+
+  .quicklink3 {
+    background-color: white;
+  }
+
+  .quicklink-image-container {
+    display: none;
+  }
+
+  .quicklink-image-mobile {
+    display: block;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+
+  .quicklink2 {
+    display: block;
+    border: none;
+  }
+
+  .quicklink3 {
+    display: block;
+  }
+
+  .quicklink1 .information {
+    width: 100%;
+  }
+
+  .quicklink2 .information {
+    width: 100%;
+  }
+
+  .quicklink3 .information3 {
+    width: 100%;
+  }
+}
+
 /* Start Learning Section */
 
 .start-learning {
@@ -346,51 +394,51 @@ header .mobile {
 }
 
 @media only screen and (max-width: 550px) {
-  .second-section .column-right {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .quicklink1 {
-    display: block;
-    border: none;
-  }
-
-  .quicklink3 {
+  .start-learning {
     background-color: white;
   }
 
-  .quicklink-image-container {
+  .courses-container {
+    background-color: white;
+    width: 100%;
+
+  }
+
+  .course img {
     display: none;
   }
 
-  .quicklink-image-mobile {
+  .course {
+    width: 100%;
+  }
+
+  .courses-top {
     display: block;
-    width: 100%;
-    padding-bottom: 8px;
+    padding: 0px;
   }
 
-  .quicklink2 {
+  .course-info {
+    width: 100%;
+    padding: 0px 16px 0px 0px;
+  }
+
+  .course-info h4 {
+    display: none;
+  }
+
+  .course-info p {
+    display: none;
+  }
+
+  .courses-bottom {
     display: block;
-    border: none;
+    padding: 0px;
   }
 
-  .quicklink3 {
-    display: block;
+  .course-info h3 {
+    background-color: lightgray;
+    padding-left: 16px;
   }
-
-  .quicklink1 .information {
-    width: 100%;
-  }
-
-  .quicklink2 .information {
-    width: 100%;
-  }
-
-  .quicklink3 .information3 {
-    width: 100%;
-  }
-}
 
 /* Thesis Exhibit */
 
@@ -497,6 +545,21 @@ header .mobile {
   padding: 10px 0px;
 }
 
+@media only screen and (max-width: 550px) {
+  .video-content {
+    display: none;
+  }
+
+  .thesis-right-column {
+    display: none;
+  }
+
+  .column-video {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
 /* Footer */
 
 footer {
@@ -520,4 +583,10 @@ footer {
 .list ul li {
   justify-content: flex-end;
   padding: 0px 16px;
+}
+
+@media only screen and (max-width: 550px) {
+  .list ul li {
+    display: none;
+  }
 }
