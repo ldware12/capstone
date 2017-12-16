@@ -307,6 +307,10 @@ header .mobile {
     padding-bottom: 8px;
   }
 
+  .quicklink-image-mobile img {
+    width: 100%;
+  }
+
   .quicklink2 {
     display: block;
     border: none;
@@ -401,15 +405,10 @@ header .mobile {
   .courses-container {
     background-color: white;
     width: 100%;
-
   }
 
   .course img {
     display: none;
-  }
-
-  .course {
-    width: 100%;
   }
 
   .courses-top {
@@ -417,9 +416,13 @@ header .mobile {
     padding: 0px;
   }
 
-  .course-info {
+  .courses-container .course {
     width: 100%;
-    padding: 0px 16px 0px 0px;
+    margin: 15px 0px;
+  }
+
+  .course-info {
+    padding: 0px 16px;
   }
 
   .course-info h4 {
