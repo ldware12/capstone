@@ -378,6 +378,7 @@ header .mobile {
   display: block;
   background-color: white;
   padding: 0px 8px;
+  height: 60%;
 }
 
 .course-info h3 {
